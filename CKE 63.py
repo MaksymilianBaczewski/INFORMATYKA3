@@ -29,9 +29,9 @@ for i in range(2,263000):
     if liczby [i] == 1:
         pierwsze.append(i)
 print(pierwsze)
-for i in range(len(liczby)):
+for i in range(len(ciagi)):
     czynniki = []
-    liczba = horner(liczby[i],2)
+    liczba = horner(ciagi[i],2)
     liczba2 = liczba
     for j in range(len(pierwsze)):
         while liczba2 % pierwsze[j]:
