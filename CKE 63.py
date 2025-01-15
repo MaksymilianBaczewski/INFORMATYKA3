@@ -34,7 +34,7 @@ for i in range(len(ciagi)):
     liczba = horner(ciagi[i],2)
     liczba2 = liczba
     for j in range(len(pierwsze)):
-        while liczba2 % pierwsze[j]:
+        while liczba2 % pierwsze[j]==0:
             liczba2 = liczba2 // pierwsze[j]
             czynniki.append(pierwsze[j])
     if len(czynniki) == 2:
