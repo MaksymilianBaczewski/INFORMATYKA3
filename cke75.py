@@ -1,4 +1,4 @@
-3
+#3
 def szyfruj(wyraz, a, b):
     wynik = ""
     for litera in wyraz:
